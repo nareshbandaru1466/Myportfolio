@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "./assets/naresh.JPG";
+import profilePic from "./assets/naresh.jpg";
 import "./Hero.css";
 
 const Hero = () => (
@@ -59,6 +59,11 @@ const Hero = () => (
           </a>
         </div>
       </div>
+    </div>
+  </section>
+);
+
+export default Hero;
     </div>
   </section>
 );
