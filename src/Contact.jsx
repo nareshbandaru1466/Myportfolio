@@ -11,7 +11,7 @@ const Contact = () => (
         <p>Cell No: <a href="tel:9502221466">9502221466</a></p>
         <p>
           LinkedIn:{" "}
-          <a href="https://www.linkedin.com/in/naresh-bandaru-53956a243" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/nareshbandaru" target="_blank" rel="noopener noreferrer">
             www.linkedin.com/in/naresh-bandaru-53956a243
           </a>
         </p>

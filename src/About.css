@@ -1,0 +1,48 @@
+/* About section styles */
+.about-section {
+  padding: 4rem 1rem;
+  background: #fff;
+  color: #222;
+  text-align: center;
+}
+
+.about-section .container {
+  max-width: min(900px, 95vw);
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: clamp(1.6rem, 3.5vw, 2rem);
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 720px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.about-section .btn {
+  padding: 0.7rem 1.25rem;
+  border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    padding: 6rem 1rem;
+    text-align: left;
+  }
+
+  .about-section .container {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .about-section p {
+    margin: 0 0 1rem 0;
+  }
+}
