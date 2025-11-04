@@ -1,0 +1,133 @@
+/* Hero section container */
+.hero-section {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+/* Container to center content */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero content wrapper */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Profile picture styling */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Headings custom font and color */
+h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-top: 0;
+}
+
+/* Paragraph styling */
+.hero-content p {
+  font-size: 1.125rem;
+  line-height: 1.5;
+  max-width: 600px;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Call to action container */
+.hero-cta {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Primary button styling */
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+
+/* Outline button variant */
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+
+.btn-outline:hover,
+.btn-outline:focus {
+  background-color: #007bff;
+  color: #fff;
+  outline: none;
+}
+
+/* Social links container */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 1.25rem;
+}
+
+/* Social link styling */
+.social-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  color: #007bff;
+  outline: none;
+}
+
+/* Gmail compose link styling (email-gmail) */
+/*.email-gmail {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 6px 10px;
+  border-radius: 6px;
+  background: rgba(0, 123, 255, 0.08);
+  color: #007bff;
+  border: 1px solid rgba(0, 123, 255, 0.18);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background-color 0.18s ease, transform 0.08s ease, color 0.18s ease;
+}
+
+.email-gmail:hover,
+.email-gmail:focus {
+  background: #007bff;
+  color: #fff;
+  transform: translateY(-1px);
+  outline: none;
+}
+
+.email-gmail:focus {
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.12);
+}*/
